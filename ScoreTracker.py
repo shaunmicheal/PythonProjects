@@ -1,13 +1,9 @@
-print(" 📚 Welcome to Student Score Tracker 📚")
+print("Welcome to Student Score Tracker")
 
 students = {}
-
-# Add multiple students
 while True:
     name = input("Enter student name: ")
     students[name] = []
-
-    # Add multiple scores for this student
     while True:
         score = int(input(f"Enter score for {name}: "))
         students[name].append(score)
